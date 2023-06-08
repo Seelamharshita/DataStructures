@@ -4,7 +4,8 @@ int main() {
    int num;
    
    printf("Enter a set of numbers (separated by spaces): ");
-   while (scanf("%d", &num) == 1) {  // keep reading numbers until the user enters something other than a number
+   while (scanf("%d", &num) == 1) { 
+an a
        if (num % 2 == 0) {
            printf("%d is even\n", num);
        } else {
